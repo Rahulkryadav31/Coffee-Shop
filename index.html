@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Shop</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+ 
+</head>
+<body>
+  <header class="header">
+
+    <a href="#" class="logo">
+      <img src="img/logo.jpg" alt="Coffee-shop-logo">
+    </a>
+
+    <nav class="navbar">
+      <a href="#home">home</a>
+      <a href="#about">about</a>
+      <a href="#menu">menu</a>
+      <a href="#products">products</a>
+      <a href="#review">review</a>
+      <a href="#contact">contact</a>
+      <a href="#blogs">blogs</a>
+    </nav>
+
+    <div class="icons">
+      <div class="fas fa-search" id="search-btn"></div>
+      <div class="fas fa-shopping-cart" id="cart-btn"></div>
+      <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <div class="search-form">
+      <input type="search" id="search-box" placeholder="search-here...">
+      <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+    <div class="cart-items-container">
+      <div class="cart-item">
+        <span class="fas fa-times"></span>
+        <img src="img/menu3.jpg" alt="">
+        <div class="content">
+          <h3>cart item 01</h3>
+          <div class="price">₹20/-</div>
+        </div>
+      </div>
+
+      <div class="cart-item">
+        <span class="fas fa-times"></span>
+        <img src="img/menu2.jpg" alt="">
+        <div class="content">
+          <h3>cart item 02</h3>
+          <div class="price">₹25.99/-</div>
+        </div>
+      </div>
+
+      <div class="cart-item">
+        <span class="fas fa-times"></span>
+        <img src="img/menu1.jpg" alt="">
+        <div class="content">
+          <h3>cart item 03</h3>
+          <div class="price">₹30/-</div>
+        </div>
+      </div>
+
+      <div class="cart-item">
+        <span class="fas fa-times"></span>
+        <img src="img/menu4.jpg" alt="">
+        <div class="content">
+          <h3>cart item 04</h3>
+          <div class="price">₹25/-</div>
+        </div>
+      </div>
+      <a href="" class="btn">checkout now</a>
+    </div>
+
+  </header>
+
+<!-- header section ends -->
+
+<!-- home section starts -->
+
+<section class="home" id="home">
+
+  <div class="content">
+    <h3>Awaken with aromatic coffee</h3>
+    <p>Brewing fresh coffee in the morning is a daily enchantment. The aroma of grinding beans, the hiss of hot water meeting grounds—pure anticipation. That first sip, warm and flavorful, wakes up the senses and sets the tone for an energized day ahead. It's not just a beverage; it's a daily celebration, turning the ordinary into something extraordinary.</p>
+    <a href="#menu" class="btn">get yours now</a>
+  </div>
+
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts -->
+<section class="about" id="about">
+  <h1 class="heading"> <span>about</span> us </h1>
+  <div class="row">
+    <div class="image">
+      <img src="img/aboutUs.jpg" alt="">
+    </div>
+    <div class="content">
+      <h3>what makes our coffee special ? </h3>
+
+      <p>Our coffee is a symphony of excellence, blending premium beans from unique regions with artisanal roasting for a taste that transcends ordinary. Focused on freshness, sustainability, and ethical practices, each cup is a celebration of passion and purpose. From custom blends catering to diverse palates to a commitment to fair trade, our coffee is a sip of extraordinary, crafted with care for a truly special experience.</p>
+
+      <a href="#products" class="btn">learn more</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- about section ends -->
+
+<!-- menu section starts -->
+
+<section class="menu" id="menu">
+
+  <h1 class="heading">our <span>menu</span> </h1>
+
+  <div class="box-container">
+
+    <div class="box">
+      <img src="img/menu1.jpg" alt="">
+      <h3>espresso</h3>
+      <div class="price">₹30 <span>35</span></div>
+      <a href="#contact" class="btn">add to cart</a>
+    </div>
+
+    <div class="box">
+      <img src="img/menu2.jpg" alt="">
+      <h3>latte</h3>
+      <div class="price">₹25.99 <span>29.99</span></div>
+      <a href="#contact" class="btn">add to cart</a>
+    </div>
+
+    <div class="box">
+      <img src="img/menu3.jpg" alt="">
+      <h3>black coffee</h3>
+      <div class="price">₹20 <span>25</span></div>
+      <a href="#contact" class="btn">add to cart</a>
+    </div>
+
+    <div class="box">
+      <img src="img/menu4.jpg" alt="">
+      <h3>mocha</h3>
+      <div class="price">₹25 <span>28</span></div>
+      <a href="#contact" class="btn">add to cart</a>
+    </div>
+
+    <div class="box">
+      <img src="img/menu5.jpg" alt="">
+      <h3>frappe</h3>
+      <div class="price">₹20 <span>25</span></div>
+      <a href="#contact" class="btn">add to cart</a>
+    </div>
+
+    <div class="box">
+      <img src="img/menu6.jpg" alt="">
+      <h3>cappuccino</h3>
+      <div class="price">₹15.99 <span>20.99</span></div>
+      <a href="#contact" class="btn">add to cart</a>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- menu section ends -->
+
+<!-- products section starts -->
+
+<section class="products" id="products">
+
+  <h1 class="heading">our <span>products</span></h1>
+
+  <div class="box-container">
+
+    <div class="box">
+      <div class="icons">
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+      </div>
+      <div class="image">
+        <img src="img/products1.jpg" alt="">
+      </div>
+      <div class="content">
+        <h3>natural coffee</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price">₹15.99 <span>20.99</span></div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="icons">
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+      </div>
+      <div class="image">
+        <img src="img/products2.jpg" alt="">
+      </div>
+      <div class="content">
+        <h3>cold brewed coffee</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price">₹20.99 <span>30.99</span></div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="icons">
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+      </div>
+      <div class="image">
+        <img src="img/products3.jpg" alt="">
+      </div>
+      <div class="content">
+        <h3>instant black coffee</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price">₹19.99 <span>26.99</span></div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- products section ends -->
+
+
+<!-- review section starts -->
+
+<section class="review" id="review">
+
+<h1 class="heading">customer's <span>review</span></h1>
+
+<div class="box-container">
+
+  <div class="box">
+    <p>"Absolutely thrilled with this coffee! The premium beans and artisanal roasting create a flavor symphony that's unmatched. Every sip feels like a luxurious escape. Plus, their commitment to freshness and ethical practices makes it a guilt-free indulgence. A coffee connoisseur's dream come true!"</p>
+    <img src="img/reviewer1.jpg" class="user" alt="">
+    <h3>urvashi</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+  </div>
+
+  <div class="box">
+    <p>"This coffee is a game-changer! The richness of the flavor and the freshness with each cup is unbeatable. I love that they prioritize sustainability and ethical practices. It's more than just coffee; it's a delightful experience brewed with care and conscience. Highly recommend!"</p>
+    <img src="img/reviewer2.jpg" class="user" alt="">
+    <h3>whitepanther</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+  </div>
+
+  <div class="box">
+    <p>"Obsessed with this coffee! The taste is a perfect blend of bold and smooth – a true morning delight. The commitment to freshness and sustainable practices is a big win for me. It's become my daily ritual, and I can't imagine starting my day without it. 5 stars for sure!"</p>
+    <img src="img/reviewer3.jpg" class="user" alt="">
+    <h3>Arpita</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </div>
+  </div>
+
+</div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts -->
+
+<section class="contact" id="contact">
+
+<h1 class="heading"><span>contact</span></h1>
+
+<div class="row">
+
+  <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1116.6192082642106!2d85.3226156750259!3d25.651118244421962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed611a76be0719%3A0x52fd7e9b8dd4306b!2sBidupur%20Bazar%2C%20Dilawarpur%20Hemti%2C%20Bihar%20844503!5e0!3m2!1sen!2sin!4v1707331865613!5m2!1sen!2sin"
+  allowfullscreen="" loading="lazy"></iframe>
+
+  <form action="">
+    <h3>get in touch</h3>
+    <div class="inputBox">
+      <span class="fas fa-user"></span>
+      <input type="text" placeholder="name">
+    </div>
+    <div class="inputBox">
+      <span class="fas fa-envelope"></span>
+      <input type="email" placeholder="email">
+    </div>
+    <div class="inputBox">
+      <span class="fas fa-phone"></span>
+      <input type="number" placeholder="number">
+    </div>
+    <a href="https://www.linkedin.com/in/rahulkryadav31/" class="btn">contact now</a>
+    <!-- <input type="submit" value="contact now" class="btn"> -->
+  </form>
+
+</div>
+</section>
+
+<!-- contact section ends -->
+
+
+
+<!-- blog section starts -->
+
+
+<section class="blogs" id="blogs">
+
+  <h1 class="heading">our <span>blogs</span></h1>
+
+  <div class="box-container">
+
+    <div class="box">
+      <div class="image">
+        <img src="img/blog1.jpg" alt="">
+      </div>
+      <div class="content">
+        <a href="#" class="title">Exquisite Coffee Symphony</a>
+        <span>by admin/ 14th feb,2024</span>
+        <p>Embrace the day with a cup of our exquisite coffee - a symphony of rich flavors and unmatched freshness. Elevate your coffee experience and make each sip a moment of indulgence and delight. </p>
+        <a href="#" class="btn">read more</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+        <img src="img/blog2.jpg" alt="">
+      </div>
+      <div class="content">
+        <a href="#" class="title">Premium Sustainable Brew</a>
+        <span>by admin/ 10th jan,2024</span>
+        <p>Sip into bliss with our coffee, where every cup tells a story of premium beans, artisanal craftsmanship, and a commitment to sustainability. Elevate your coffee moments, because life is too short for mediocre brews</p>
+        <a href="#" class="btn">read more</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+        <img src="img/blog3.jpg" alt="">
+      </div>
+      <div class="content">
+        <a href="#" class="title">Sensory Coffee Journey</a>
+        <span>by admin/ 31st dec,2023</span>
+        <p>Dive into a world of flavor and warmth with our exceptional coffee. Crafted with passion, every sip is a journey, awakening your senses to the perfect blend of freshness and indulgence.</p>
+        <a href="#" class="btn">read more</a>
+      </div>
+    </div>
+
+  </div>
+  
+</section>
+
+<!-- blog section ends -->
+
+<!-- footer section starts -->
+
+<section class="footer">
+
+  <div class="share">
+    <a href="https://github.com/Rahulkryadav31" class="fab fa-github"></a>
+    <a href="https://www.linkedin.com/in/rahulkryadav31/" class="fab fa-linkedin"></a>
+    <a href="https://www.instagram.com/whitepanther.__/" class="fab fa-instagram"></a>
+    <!-- <a href="#" class="fab fa-facebook-f"></a>
+    <a href="#" class="fab fa-x"></a> -->
+  </div>
+
+  <div class="links">
+    <a href="#home">home</a>
+    <a href="#about">about</a>
+    <a href="#menu">menu</a>
+    <a href="#products">products</a>
+    <a href="#review">review</a>
+    <a href="#contact">contact</a>
+    <a href="#blogs">blogs</a>
+  </div>
+
+  <div class="credit">created by <span>rahul yadav</span> | all rights reserved </div>
+
+</section>
+
+
+
+
+<!-- footer section ends -->
+
+
+  <script src="script.js"></script>
+</body>
+</html>
